@@ -26,7 +26,7 @@ $ sudo chmod a+x /usr/bin/tinywm-session
 tinwm-session preloads a terminal and then runs the go binary. Build the binary and move it to /usr/bin/.
 
 ```
-$ go build
+$ go build tinywm.go
 $ sudo mv tinywm /usr/bin/
 $ sudo chmod a+x /usr/bin/tinywm
 ```
